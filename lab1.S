@@ -3,7 +3,9 @@
 .global lowercase_string
 lowercase_string:
     // Specify a string ending with '\0'
-    .asciz "ECE 362 is awesome!"
+    // The lowercase 'e' in eCE is not a typo!
+    // You'll convert it to uppercase later.
+    .asciz "eCE 362 is awesome!"
 
 .global login_name
 login_name:

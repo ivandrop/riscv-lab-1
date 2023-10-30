@@ -15,7 +15,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "/package/riscv-gnu-toolchain/bin/riscv64-unknown-elf-gdb",
+            "miDebuggerPath": "riscv64-unknown-elf-gdb",
             "setupCommands": [
                 {
                     "text": "source ${workspaceFolder}/qemu_riscv32.gdbinit"

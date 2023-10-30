@@ -42,7 +42,7 @@ lab.dump: $(EXE)
 	@$(OBJDUMP) -D $^ > $@
 
 clean:
-	@rm -f *.o $(EXE) port.env qemu_riscv32.gdbinit
+	@rm -f $(EXE) port.env qemu_riscv32.gdbinit
 
 help:
 	@echo "-----------------------------------------------------"

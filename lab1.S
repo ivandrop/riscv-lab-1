@@ -9,11 +9,11 @@ lowercase_string:
 
 .global login_name
 login_name:
-    .asciz "please put your Purdue login name here"
+    .asciz "iandreop"
 
 .global puid
 puid:
-    .asciz "please put your 10-digit PUID here"
+    .asciz "0033426341"
 
 // Align to 4bytes boundary as we have a string above
 .balign 4
@@ -24,7 +24,9 @@ puid:
 q2_1_example:
     // Assembly example
     /* Enter your code after this comment */
-    
+    add x10, x10, x11  // x10 = x10 + x11
+    add x12, x12, x13  // x12 = x11 + x12
+    add x10, x10, x12  // x10 = x10 + x11 + x12 + x13
     /* Enter your code above this comment */
     ret
 
